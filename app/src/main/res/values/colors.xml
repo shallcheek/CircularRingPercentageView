@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <declare-styleable name="SeekCircle">
+        <attr name="max" format="integer" value="100" />
+        <attr name="progress" format="integer" value="0" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="ringBias" format="float" />
+        <attr name="sectionRatio" format="float" />
+    </declare-styleable>
+    <declare-styleable name="CircularRing">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="circleRoundWidth" format="dimension" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="circleTextColor" format="color" />
+        <attr name="circleNumber" format="integer" />
+        <attr name="circleTextSize" format="dimension" />
+        <attr name="circleColor1" format="color" />
+        <attr name="circleColor2" format="color" />
+        <attr name="circleColor3" format="color" />
+        <attr name="circleColor4" format="color" />
+        <attr name="circleColor5" format="color" />
+    </declare-styleable>
+</resources>
